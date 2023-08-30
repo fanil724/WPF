@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{0D076CEB-A8C4-424F-A1FC-C6445D7DC462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", "{893B8685-78D4-4946-9FAB-3298D88122E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomUserControls", "CustomUserControls\CustomUserControls.csproj", "{4602B0CE-CB19-4193-BBE8-9BC3B7072BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTextControls", "CustomTextControls\CustomTextControls.csproj", "{A4904E28-330C-49D9-BA04-3CAB573056D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D076CEB-A8C4-424F-A1FC-C6445D7DC462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D076CEB-A8C4-424F-A1FC-C6445D7DC462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D076CEB-A8C4-424F-A1FC-C6445D7DC462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D076CEB-A8C4-424F-A1FC-C6445D7DC462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{893B8685-78D4-4946-9FAB-3298D88122E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893B8685-78D4-4946-9FAB-3298D88122E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893B8685-78D4-4946-9FAB-3298D88122E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893B8685-78D4-4946-9FAB-3298D88122E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4602B0CE-CB19-4193-BBE8-9BC3B7072BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4602B0CE-CB19-4193-BBE8-9BC3B7072BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4602B0CE-CB19-4193-BBE8-9BC3B7072BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4602B0CE-CB19-4193-BBE8-9BC3B7072BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4904E28-330C-49D9-BA04-3CAB573056D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4904E28-330C-49D9-BA04-3CAB573056D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4904E28-330C-49D9-BA04-3CAB573056D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4904E28-330C-49D9-BA04-3CAB573056D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F9CA015-944A-491D-A7E0-2BCED20E327E}
+	EndGlobalSection
+EndGlobal
