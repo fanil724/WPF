@@ -55,8 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="View\CreatebleTextBox.xaml.cs">
-      <DependentUpon>CreatebleTextBox.xaml</DependentUpon>
+    <Compile Include="View\ClearableTextBox.xaml.cs">
+      <DependentUpon>ClearableTextBox.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -70,7 +70,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="View\CreatebleTextBox.xaml">
+    <Page Include="View\ClearableTextBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

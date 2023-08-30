@@ -20,10 +20,10 @@
 
 		<TextBlock Grid.Row="0" Name="tbTitle"  Text="Registrtion form" FontSize="24" 
 				   VerticalAlignment="Center" HorizontalAlignment="Center"/>
-		<userControls:CreatebleTextBox Grid.Row="1" Width="250" Height="40"/>
-		<userControls:CreatebleTextBox Grid.Row="2" Width="250" Height="40"/>
-		<userControls:CreatebleTextBox Grid.Row="3" Width="250" Height="40"/>
-		<userControls:CreatebleTextBox Grid.Row="4" Width="250" Height="40"/>
-		<userControls:CreatebleTextBox Grid.Row="5" Width="250" Height="40"/>
+		<userControls:ClearableTextBox Grid.Row="1" Width="250" Height="40" Placeholder="Введите ваше имя"/>
+		<userControls:ClearableTextBox Grid.Row="2" Width="250" Height="40" Placeholder="Введите вашу фамилию"/>
+		<userControls:ClearableTextBox Grid.Row="3" Width="250" Height="40" Placeholder="Введите ваш майл"/>
+		<userControls:ClearableTextBox Grid.Row="4" Width="250" Height="40" Placeholder="Введите ваш телефон"/>
+		<userControls:ClearableTextBox Grid.Row="5" Width="250" Height="40" Placeholder="Введите ваш банк пин"/>
 	</Grid>
 </Window>

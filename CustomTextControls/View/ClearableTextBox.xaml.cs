@@ -4,14 +4,26 @@ using System.Windows.Controls;
 namespace CustomTextControls.View
 {
     /// <summary>
-    /// Interaction logic for CreatebleTextBox.xaml
+    /// Interaction logic for ClearableTextBox.xaml
     /// </summary>
-    public partial class CreatebleTextBox : UserControl
+    public partial class ClearableTextBox : UserControl
     {
-        public CreatebleTextBox()
+        public ClearableTextBox()
         {
             InitializeComponent();
         }
+        private string placeholder;
+
+        public string Placeholder
+        {
+            get { return placeholder; }
+            set
+            {
+                placeholder = value;
+                tbPlaceHolder.Text = placeholder;
+            }
+        }
+
 
         private void txtInput_TextChanged(object sender, TextChangedEventArgs e)
         {
